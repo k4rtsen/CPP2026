@@ -38,7 +38,7 @@ void show_menu()
 
 void clear_screen()
 {
-    std::cout << "\033[2J\033[1;1H";
+    cout << "\033[2J\033[1;1H";
 }
 
 bool validate(int ans)
@@ -63,7 +63,7 @@ int get_answer()
     return ans;
 }
 
-void say_goodbuy()
+void say_goodbye()
 {
 
     for (int i{0}; i < 2; ++i)
@@ -120,7 +120,7 @@ int main()
         player_choice = get_answer();
     }
 
-    say_goodbuy();
+    say_goodbye();
 
     return 0;
 }
