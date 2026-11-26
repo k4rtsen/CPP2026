@@ -8,6 +8,7 @@
 using std::cout,
     std::cerr,
     std::cin,
+    std::endl,
     std::flush,
     std::string,
     std::random_device,
@@ -80,6 +81,7 @@ void say_goodbye()
         // Очищаем строку пробелами перед следующим циклом
         cout << "\rGood bye   " << flush;
     }
+    cout << endl;
 }
 
 int main()
